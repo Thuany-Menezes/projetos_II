@@ -1,0 +1,88 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(234, 234, 234, 1);
+}
+
+/* Estilos para o layout responsivo */
+.login-usuario {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-ellipse {
+    background: #65b97c;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px 0;
+}
+
+.area_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.usuario-input,
+.senha-input,
+.tipo-usuario-dropdown {
+    background: #d0d0d0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 300px;
+    height: 36px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.tipo-usuario-dropdown {
+    appearance: none;
+}
+
+.entrar-button {
+    background: #95d2a6;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 200px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selecione {
+    color: #000000;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Estilos para dispositivos menores */
+@media (max-width: 768px) {
+    .usuario-input,
+    .senha-input,
+    .tipo-usuario-dropdown {
+        width: 80%;
+        max-width: 250px;
+        font-size: 14px;
+    }
+
+    .entrar-button {
+        width: 70%;
+        max-width: 180px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
