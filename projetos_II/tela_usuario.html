@@ -7,15 +7,36 @@
     <link rel="stylesheet" type="text/css" href="css/estilos_usu.css">
 </head>
 <body>
-    <div class="tela-usuario">
-        <div class="rectangle-6"></div>
-        <div class="menu-superior">
-            <div class="user-info">
-                <img src="imagens/usuario_superior.png" alt="Usuário" class="user-image" />
-                <div class="nome-e-sobrenome">Nome e Sobrenome</div>
+
+    <!-- Container do menu superior -->
+    <div class="superior-container">
+        <div class="tela-usuario">
+            <div class="menu-superior">
+                <div class="user-info">
+                    <img src="imagens/usuario_superior.png" alt="Usuário" class="user-image" />
+                    <div class="nome-e-sobrenome">Nome e Sobrenome</div>
+                </div>
             </div>
-        </div>               
-        <div class="faixa"></div> <!-- Adicionei uma div para a faixa -->
+        </div>
+        <div class="faixa"></div>
+    </div>
+
+        <!-- Container do centro da página -->
+    <div class="central-container">
+        <div class="pesquisa">Pesquisar</div>
+        <div class="dashed-line"></div>
+        
+        <!-- Campo de busca por livros -->
+        <div class="busca">
+            <input type="text" placeholder="Buscar exemplares">
+            <input type="text" placeholder="Autor(a)">
+            <input type="date" placeholder="Ano">
+            <input type="text" placeholder="Editora">
+            <button class="pesquisar">Pesquisar</button>
+        </div>
+    </div>
+
+        <!-- Container do menu lateral -->
         <div class="menu-lateral-container">
             <img src="imagens/logo.png" alt="Logo" class="logo" />
             <nav>
@@ -23,16 +44,11 @@
                     <li><a href="#" class="in-cio">Início</a></li>
                     <li><a href="#" class="favoritos">Favoritos</a></li>
                     <li><a href="#" class="situa-o2">Situação</a></li>
-                    <li><a href="#" class="pesquisar">Pesquisar</a></li>
                     <li><a href="#" class="minha-conta">Minha Conta</a></li>
-                    <li><a href="#" id="logout" class="sair2">Sair</a></li>
+                    <li><a href="index.html" id="logout" class="sair2">Sair</a></li>
                 </ul>
             </nav>
-        </div>        
-        <!--<div class="group-5">
-            <div class="indica-es">Indicações:</div>
-            <div class="line-7"></div> 
-        </div>-->
-    </div>
+        </div>  
+    
 </body>
 </html>
