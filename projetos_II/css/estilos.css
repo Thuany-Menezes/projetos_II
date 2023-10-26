@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 
 body {
@@ -20,12 +21,10 @@ body {
     align-items: center;
 }
 
-.logo-ellipse {
-    background: #65b97c;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 50px 0;
+.logo {
+    width: 170px;
+    height: 170px;
+    margin: 10px 0;
 }
 
 .area_login {
@@ -39,12 +38,14 @@ body {
 .senha-input,
 .tipo-usuario-dropdown {
     background: #d0d0d0;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 90%;
     max-width: 300px;
     height: 36px;
     margin: 10px 0;
-    padding: 10px;
+    padding: 10px 20px;
+    border: none;
+
 }
 
 .tipo-usuario-dropdown {
@@ -53,13 +54,14 @@ body {
 
 .entrar-button {
     background: #95d2a6;
-    border-radius: 15px;
-    width: 80%;
-    max-width: 200px;
-    height: 35px;
-    text-align: center;
+    width: 120px; /* Largura do botão */
+    height: 30px; /* Altura do botão */
+    text-align: center; /* Centralizar texto horizontalmente */
+    line-height: center; /* Centralizar texto verticalmente */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .selecione {
